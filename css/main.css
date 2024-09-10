@@ -215,7 +215,7 @@ html,body{height: 100%;}
             font-weight: bold; border-radius: 5px;}
         .submit1:hover{background-color:#6597b4;color: white; cursor: pointer;}
 
-    #pop_footer{position: absolute; left: 150px; top:500px;}
+    #pop_footer{display: none; position: absolute; left: 150px; top:500px;}
     #pop_footer span{cursor: pointer;}
     #pop_footer span img{}
                 
@@ -307,6 +307,8 @@ html,body{height: 100%;}
 .p_btn1:hover{background-color: black;}
 .p_btn2:hover{background-color: black;}
 .p_btn2{}
+
+#pop_footer{display: block;}
 
 /* footer */
 #footer{height: 130px}
