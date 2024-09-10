@@ -86,6 +86,12 @@ $(function () {
 }
 
 })//
+$("a").click(function(e){
+    if( $(this).attr("href") == "#"){
+        e.preventDefault()
+    }
+})
+
 
 
 //pop
